@@ -17,15 +17,13 @@ class MyPageViewController: UIViewController, UITableViewDelegate, UITableViewDa
     let header = ["계정","설정","커뮤니티","기타"]
     
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = .white
         
-        ProfileImageView.image = UIImage(named: "MyTab")
-        
-    
+        //ProfileImageView.image = UIImage(named: "MyTab")
+         
         tableView.delegate = self
         tableView.dataSource = self
         self.tableView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
@@ -55,15 +53,15 @@ class MyPageViewController: UIViewController, UITableViewDelegate, UITableViewDa
         switch indexPath.section {
             case 0:
                 switch indexPath.row{
-                    case 0: self.performSegue(withIdentifier: "showChangePw", sender: nil)
+                    case 0: self.performSegue(withIdentifier: "showAddressAuth", sender: nil)
                     case 1: self.performSegue(withIdentifier: "showChangePw", sender: nil)
                     default:
                         return
                 }
             case 1:
                 switch indexPath.row{
-                    case 0: self.performSegue(withIdentifier: "showChangePw", sender: nil)
-                    case 1: self.performSegue(withIdentifier: "showChangePw", sender: nil)
+                    case 0: self.performSegue(withIdentifier: "showSetAlarm", sender: nil)
+                    case 1: self.performSegue(withIdentifier: "showSetMessage", sender: nil)
                     default:
                         return
             }
