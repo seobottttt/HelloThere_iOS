@@ -6,14 +6,19 @@
 //
 
 import UIKit
+import NaverThirdPartyLogin
+import Alamofire
+import KakaoSDKAuth
+import KakaoSDKUser
+import KakaoSDKCommon
+import GoogleSignIn
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var loginBtn: UIButton!
+    
     override func viewDidLoad() {
+//        loginInstance?.delegate = self
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 

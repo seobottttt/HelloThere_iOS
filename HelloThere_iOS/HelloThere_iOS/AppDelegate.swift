@@ -6,16 +6,48 @@
 //
 
 import UIKit
+import NaverThirdPartyLogin
+import KakaoSDKCommon
+import KakaoSDKAuth
+import GoogleSignIn
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//        NaverThirdPartyLoginConnection.getSharedInstance()?.isNaverAppOauthEnable = true
+//        NaverThirdPartyLoginConnection.getSharedInstance()?.isInAppOauthEnable = true
+//
+//        let instance = NaverThirdPartyLoginConnection.getSharedInstance()
+//            ///  네이버앱으로 로그인
+//        instance?.isNaverAppOauthEnable = true
+//            /// 사파리로 로그인
+//        instance?.isInAppOauthEnable = true
+//
+//        instance?.serviceUrlScheme = "naverlogin"
+//        instance?.consumerKey = "CaumfgJQIl36Ms8HRD9e"
+//        instance?.consumerSecret = "Gd_ILGoPgK"
+//        instance?.appName = "HelloThere"
+//        // Override point for customization after application launch.
+//
+//        let nativeAppKey = Bundle.main.infoDictionary?["1233b21d249bb19573588fd36caef2a2"] ?? ""
+//
+//        KakaoSDK.initSDK(appKey: nativeAppKey as! String)
+//        return true
+//    }
 
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+//        NaverThirdPartyLoginConnection.getSharedInstance()?.application(app, open: url, options: options)
+//            return true
+//        if (AuthApi.isKakaoTalkLoginUrl(url)) {
+//            return AuthController.handleOpenUrl(url: url)
+//        }
+//        if GIDSignIn.sharedInstance.handle(url){
+//            return true
+//        }
         return true
-    }
+      }
 
     // MARK: UISceneSession Lifecycle
 
