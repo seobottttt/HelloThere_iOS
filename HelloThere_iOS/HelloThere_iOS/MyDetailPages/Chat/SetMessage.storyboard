@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Set Message View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="SetMessageViewController" customModule="HelloThere_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="iPo-ns-SuU">
+                                <rect key="frame" x="25" y="59" width="364" height="39.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Q9X-HZ-WJM">
+                                        <rect key="frame" x="0.0" y="0.0" width="136" height="39.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="L2R-MD-m9W">
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="19"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="채팅 설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BC-8B-Dby">
+                                                <rect key="frame" x="0.0" y="19" width="136" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eG1-va-ZOB">
+                                        <rect key="frame" x="321" y="0.0" width="43" height="39.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="cancle"/>
+                                        <connections>
+                                            <segue destination="NDO-du-PzR" kind="presentation" modalPresentationStyle="fullScreen" id="91l-GM-Sbr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="6TZ-wA-oxc">
+                                <rect key="frame" x="30" y="158.5" width="354" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="수신/발신 제한" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzH-gI-XzB">
+                                        <rect key="frame" x="0.0" y="6.5" width="274" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KY9-eF-ABX">
+                                        <rect key="frame" x="304" y="0.0" width="52" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="EJr-RO-zGx"/>
+                                        </constraints>
+                                    </switch>
+                                </subviews>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Tnl-GV-RRU">
+                                <rect key="frame" x="30" y="219.5" width="354" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Jwd-QP-9f8"/>
+                                </constraints>
+                                <string key="text">* 이 기능을 on 상태로 두실 경우에는,
+모든 채팅에 대한  수신 및 발신이 제한됩니다</string>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6TZ-wA-oxc" secondAttribute="trailing" constant="30" id="AIY-qt-SUc"/>
+                            <constraint firstItem="6TZ-wA-oxc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="CFH-7W-gdo"/>
+                            <constraint firstItem="Tnl-GV-RRU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="Drj-OR-CYh"/>
+                            <constraint firstItem="iPo-ns-SuU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="15" id="L68-68-nqI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Tnl-GV-RRU" secondAttribute="trailing" constant="30" id="N11-RR-UYY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="iPo-ns-SuU" secondAttribute="trailing" constant="25" id="NbE-cu-C3G"/>
+                            <constraint firstItem="6TZ-wA-oxc" firstAttribute="top" secondItem="iPo-ns-SuU" secondAttribute="bottom" constant="60" id="hzM-zl-xNx"/>
+                            <constraint firstItem="Tnl-GV-RRU" firstAttribute="top" secondItem="6TZ-wA-oxc" secondAttribute="bottom" constant="30" id="l76-fo-53P"/>
+                            <constraint firstItem="iPo-ns-SuU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="25" id="z7V-Mw-a5Z"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="89.732142857142847"/>
+        </scene>
+        <!--MyPageTab-->
+        <scene sceneID="DJZ-Nd-PFB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyPageTab" id="NDO-du-PzR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7eK-RN-uiD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="-55"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancle" width="19" height="19"/>
+        <image name="logo" width="136" height="19"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
