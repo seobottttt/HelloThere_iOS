@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8B260005-7CB6-4787-8B4A-5ED507F839D3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71CF95AC-6BBA-4E41-8593-86C57DF4CDAB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mainpage/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "71CF95AC-6BBA-4E41-8593-86C57DF4CDAB - 7e115c392eed9195"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mainpage.MainViewController.ManageImage.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Mainpage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lkm98401/Desktop/Mainpage/Mainpage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "71CF95AC-6BBA-4E41-8593-86C57DF4CDAB - 7cb02cb4f41bfde1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mainpage.MainViewController.ManageImage.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Mainpage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lkm98401/Desktop/Mainpage/Mainpage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "71CF95AC-6BBA-4E41-8593-86C57DF4CDAB - 5ae696a1331a3a96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mainpage.MainViewController.ManageImage.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Mainpage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lkm98401/Desktop/Mainpage/Mainpage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "71CF95AC-6BBA-4E41-8593-86C57DF4CDAB - 8dedf6da6f51ba1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mainpage.MainViewController.ManageImage.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Mainpage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lkm98401/Desktop/Mainpage/Mainpage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "71CF95AC-6BBA-4E41-8593-86C57DF4CDAB - ae46bf767555d09c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mainpage.MainViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Mainpage.MainViewController"
+                  moduleName = "Mainpage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lkm98401/Desktop/Mainpage/Mainpage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "71CF95AC-6BBA-4E41-8593-86C57DF4CDAB - a649c025f64a2aea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mainpage.MainViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Mainpage.MainViewController&gt;"
+                  moduleName = "Mainpage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lkm98401/Desktop/Mainpage/Mainpage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "812">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71197651-15D0-440C-8CD3-FD23F25F98C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mainpage/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
